@@ -1,0 +1,410 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: #2600ff21;
+}
+
+p {
+    font-family: 'Franklin Gothic';
+    font-weight:  lighter;
+    color: rgb(41, 41, 41);
+}
+
+li {
+    font-family: 'Franklin Gothic';
+    font-weight:  lighter;
+    color: #000000;
+}
+
+.card {
+    display: block;
+    box-shadow: 3px 3px 10px 8px rgba(129, 111, 111, 0.4);
+    width: 33vw;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-top: 2%;
+    position: relative;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+#profile {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 33vw;
+    margin-bottom: 0%;
+}
+
+.cardsections {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.card .greet {
+    margin-top:0px;
+    margin-bottom: 0px;
+    line-height: 7vh;
+    font-family: "Lora", "Crimson Pro", serif,;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card h2 {
+    font-family: "Lora", "Crimson Pro", serif,;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.name {
+    color: #3b3a99;
+    font-family: "Lora", "Crimson Pro", serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: "Lora", "Crimson Text", serif;
+    color: rgb(41, 41, 41);
+}
+
+.email {
+    display: flex;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0%;
+    margin-bottom: 15px;
+}
+.email img {
+    max-width:400px;
+    block-size: 30px;
+    margin-right: 20px;
+}
+
+.email p {
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.location {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.location img {
+    max-width:400px;
+    block-size: 30px;
+    margin-right: 20px;
+}
+
+.location p {
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.phone {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.phone img {
+    max-width:400px;
+    block-size: 21px;
+    margin-right: 20px;
+}
+
+.phone p {
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.about {
+    margin-right: 10px;
+    text-align: justify;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.aboutheader {
+    display: flex;
+}
+
+.about img {
+    max-width:400px;
+    block-size: 30px;
+    margin-right: 10px; 
+}
+
+.about h3 {
+    font-family: "Lora", "Crimson Text", serif;
+    color: #3b3a99;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.about p {
+    margin: 0px;
+    color:rgba(41, 41, 41, 1);
+    margin-left: 40px;
+}
+
+.languagesheader {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.languages img {
+    block-size: 30px;
+    margin-right: 10px;
+}
+
+.languages h3 {
+    font-family: "Lora", "Crimson Text", serif;
+    color: #3b3a99;
+    margin: 0px;
+    margin-right: 10px;
+
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.languagestext {
+    margin-left: 40px;
+}
+
+.languages h4 {
+    margin: 0px;
+    font-family: "Lora", "Crimson Text", serif;
+}
+
+.languages p {
+    margin-top: 0px;
+    font-style: italic;
+    font-family: "Franklin Gothic"
+}
+
+.social {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.socialheader {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.socialheader img {
+    block-size: 25px;
+    margin-right: 10px;
+}
+
+.social h3 {
+    font-family: "Lora", "Crimson Text", serif;
+    color: #3b3a99;
+    margin: 0px;
+    margin-right: 10px;
+
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.mysocials {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.mysocials img {
+    max-width:400px;
+    block-size: 60px;
+    margin-right: 10px; 
+}
+
+.detailssections {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.details h2 {
+    font-family:"Lora", "Crimson Pro", serif;
+    font-size: 30px;
+    margin: 0;
+    color: #3b3a99;
+}
+
+.details h3 {
+    font-family: "Lora", "Crimson Text", serif;
+    color: #000000;
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.details h4 {
+    margin: 0px;
+    font-family: "Lora", "Crimson Text", serif;
+    color: #3b3a99;
+}
+
+.details li {
+    font-size: 16px
+}
+
+.experiencebox {
+    display: block;
+    box-shadow: 3px 3px 10px 8px rgba(129, 111, 111, 0.4);
+    width: 61%;
+    height: 100%;
+    margin-right: 2%;
+    margin-left: 0%;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    margin: 0px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.experienceheader {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.experienceheader img {
+    block-size: 40px;
+}
+
+.experienceheader h2 {
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.experience {
+    h3 {
+        margin-bottom: 5px;
+    }
+    h4 {
+        margin-bottom: 5px;
+    }
+}
+
+.educationbox {
+    display: block;
+    box-shadow: 3px 3px 10px 8px rgba(129, 111, 111, 0.4);
+    width: 61%;
+    height: 100%;
+    margin-right: 2%;
+    margin-left: 0%;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    margin: 0px;
+    margin-bottom: 2%;
+}
+
+.educationheader {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.educationheader img {
+    block-size: 40px;
+}
+
+.educationheader h2 {
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.education {
+    h3 {
+        margin-bottom: 5px;
+    }
+    h4 {
+        margin-bottom: 5px;
+    }
+}
+
+
+.addinfobox {
+    display: block;
+    box-shadow: 3px 3px 10px 8px rgba(129, 111, 111, 0.4);
+    width: 61%;
+    height: 100%;
+    margin-right: 2%;
+    margin-left: 0%;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    margin: 0px;
+}
+
+.addinfoheader {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.addinfoheader img {
+    block-size: 35px;
+}
+
+.addinfoheader h2 {
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.addinfo {
+    h3 {
+        margin-bottom: 5px;
+    }
+    h4 {
+        margin-bottom: 5px;
+    }
+}
+
+.softwares {
+    margin-bottom: 30px;
+}
